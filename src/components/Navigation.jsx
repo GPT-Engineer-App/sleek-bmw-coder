@@ -9,6 +9,15 @@ function Navigation() {
           <img src={logo} alt="Logo" width="40px" height="40px" />
         </Box>
         <Flex alignItems="center">
+          <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/services">
+            Usługi
+          </Link>
+          <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/about-us">
+            O nas
+          </Link>
+          <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/contact">
+            Kontakt
+          </Link>
           <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/">
             Home
           </Link>
