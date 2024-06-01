@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Link } from "@chakra-ui/react";
+import { Box, Flex, Link, Image } from "@chakra-ui/react";
 import logo from "../assets/logo.svg";
 
 function Navigation() {
@@ -6,10 +6,10 @@ function Navigation() {
     <Box bg="teal.500" px={4}>
       <Flex h={16} alignItems="center" justifyContent="space-between">
         <Box>
-          <img src={logo} alt="Logo" width="40px" height="40px" />
+          <Image src={logo} alt="Logo" boxSize="50px" />
         </Box>
         <Flex alignItems="center">
-          <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/services">
+          <Link px={3} py={2} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.600" }} href="/services">
             Usługi
           </Link>
           <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/about-us">
