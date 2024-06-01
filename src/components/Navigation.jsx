@@ -10,13 +10,13 @@ function Navigation() {
         </Box>
         <Flex alignItems="center">
           <Link px={3} py={2} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.600" }} href="/services">
-            Usługi
+            Services
           </Link>
           <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/about-us">
-            O nas
+            About Us
           </Link>
           <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/contact">
-            Kontakt
+            Contact
           </Link>
           <Link px={2} py={1} rounded={"md"} _hover={{ textDecoration: "none", bg: "teal.700" }} href="/">
             Home
