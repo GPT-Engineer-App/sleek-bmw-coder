@@ -4,7 +4,6 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
-      {/* Hero Section */}
       <Box bgImage="url('https://images.unsplash.com/photo-1602524816075-1d0b6e3e1b9b')" bgSize="cover" bgPos="center" color="white" py={40} textAlign="center">
         <VStack spacing={6}>
           <Text fontSize="5xl" fontWeight="extrabold">
@@ -17,7 +16,6 @@ const Index = () => {
         </VStack>
       </Box>
 
-      {/* Services Section */}
       <Box py={20} bg="gray.50">
         <Text fontSize="4xl" fontWeight="bold" textAlign="center" mb={12}>
           Our Services
@@ -53,7 +51,6 @@ const Index = () => {
         </Grid>
       </Box>
 
-      {/* Testimonials Section */}
       <Box bg="gray.100" py={20}>
         <Text fontSize="4xl" fontWeight="bold" textAlign="center" mb={12}>
           Customer Reviews
@@ -74,7 +71,6 @@ const Index = () => {
         </VStack>
       </Box>
 
-      {/* Footer Section */}
       <Box bg="gray.900" color="white" py={12}>
         <VStack spacing={6}>
           <Text fontSize="2xl" fontWeight="bold">
