@@ -1,4 +1,4 @@
-import { Container, Box, VStack, HStack, Text, Button, IconButton, Image, Input, Textarea, FormControl, FormLabel, Grid, GridItem } from "@chakra-ui/react";
+import { Container, Box, VStack, HStack, Text, Button, IconButton, Image, Input, Textarea, FormControl, FormLabel, Grid, GridItem, Stack } from "@chakra-ui/react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Index = () => {
